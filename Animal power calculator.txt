@@ -1,0 +1,20 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+    float a = 0.0f;
+    string b;
+    
+    cout << "Animal: ";
+    cin >> b;
+    cout << b << " weight in lbs: ";
+    cin >> a;
+    cout << "1 "<< b <<"power = " << pow(a / 1700, 0.75)<< " Horsepower " << endl;
+    cout << "1 Horsepower = " << 1 / pow(a / 1700, 0.75) << " " << b <<"power";
+    
+  
+  return 0;
+}
